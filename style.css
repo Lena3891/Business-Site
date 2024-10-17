@@ -6,6 +6,7 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
+  background-color: #e9bea4;
 }
 header {
   background-image: url("/Users/magdalenazyglewicz/Documents/Technigo/Business-Site/assets/fantasy-welt.jpg");
@@ -59,7 +60,7 @@ input[type="password"] {
   margin-bottom: 1rem;
 }
 button {
-  background-color: #4caf50;
+  background-color: #523751;
   color: white;
   padding: 0.75rem 1.5rem;
   border: none;
