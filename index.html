@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fantasy Company - Anmeldung</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Fantasy Company</h1>
+      <p>Treten Sie unserer fantastischen Welt bei!</p>
+    </header>
+    <main>
+      <form action="https://httpbin.org/anything" method="post">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">E-Mail:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="password">Passwort:</label>
+          <input type="password" id="password" name="password" required />
+        </div>
+        <div class="radio-group">
+          <p>Abonnement-Plan:</p>
+          <label>
+            <input type="radio" name="plan" value="free" checked /> Kostenlos
+          </label>
+          <label>
+            <input type="radio" name="plan" value="premium" /> Premium
+          </label>
+        </div>
+        <div class="checkbox-group">
+          <p>Bevorzugte Kontaktmethode:</p>
+          <label>
+            <input type="checkbox" name="contact" value="email" /> E-Mail
+          </label>
+          <label>
+            <input type="checkbox" name="contact" value="phone" /> Telefon
+          </label>
+        </div>
+        <button type="submit">Anmelden</button>
+      </form>
+    </main>
+  </body>
+</html>
