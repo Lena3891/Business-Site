@@ -9,7 +9,7 @@ body {
   background-color: #e9bea4;
 }
 header {
-  background-image: url("/Users/magdalenazyglewicz/Documents/Technigo/Business-Site/assets/fantasy-welt.jpg");
+  background-image: url("assets/fantasy-welt.jpg");
   background-size: cover;
   background-position: center;
   color: white;
